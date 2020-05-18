@@ -1,0 +1,20 @@
+html {
+ box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+
+body {
+ background-color: pink;
+}
+
+.box {
+ width: 100%;
+ background-color: green;
+ display: flex;
+ height: 200px;
+}
